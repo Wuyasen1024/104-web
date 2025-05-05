@@ -1561,7 +1561,7 @@
 
 .block1 {
   background-color: #ffffff;
-  height: clamp(200px, 50vh, 413px);
+  height: clamp(200px, 55vh, 413px);
   width: clamp(300px, 80vw, 1017px);
   border-radius: 5px;
   margin: clamp(20px, 6vw, 55px) 0 0 0;
