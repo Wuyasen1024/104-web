@@ -1,0 +1,218 @@
+.navbar-center-hr {
+    display: none;
+}
+
+.main-1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffeedf;
+    padding: clamp(40px, 10vw, 45px) 0 clamp(20px, 5vw, 30px) 0;
+}
+
+.main-search-bottom {
+    margin-top: 0 !important;
+}
+
+.horizontal-line {
+    z-index: 10;
+}
+
+.main-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.guide {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: clamp(6px, 1vw, 10px);
+    padding: clamp(6px, 2vw, 20px) 0;
+    width: fit-content;
+    align-self: flex-start;
+}
+
+.guide a,
+.guide span {
+    font-family: 'Arial';
+    font-size: clamp(12px, 1.8vw, 16px);
+    text-decoration: none;
+    color: black;
+}
+
+.guide a:hover,
+.guide span:hover {
+    color: #4E91FF !important;
+}
+
+/* 為104人力銀行鏈接添加特殊樣式 */
+.guide a[href="index.html"] {
+    color: #1654B9;
+}
+
+/* 為搜尋職缺鏈接添加特殊樣式 */
+.guide a[href=""] {
+    color: black;
+    pointer-events: none;
+}
+
+.work-card-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: clamp(12px, 2vw, 18px);
+    width: clamp(320px, 80vw, 1017px);
+}
+
+.work-card {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: clamp(110px, 17.2vh, 172px);
+    border-radius: 5px;
+    box-shadow: 3px 4px 33.5px 3px #e5e8ef;
+}
+
+.work-card .photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: clamp(150px, 38%, 387px);
+    height: 100%;
+    background-color: #E0E0E0;
+}
+
+.work-card .work {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: clamp(10px, 2vw, 20px) clamp(15px, 4vw, 25px);
+}
+
+.work-card .work-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Arial';
+}
+
+.work-info .job-title,
+.work-info .company-name {
+    font-size: clamp(12px, 1.7vw, 20px);
+}
+
+.work-info .job-info-2 {
+    font-size: clamp(10px, 1.7vw, 16px);
+    margin-top: clamp(8px, 2vh, 12px);
+}
+
+.work-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: clamp(6px, 1.2vh, 14px);
+}
+
+.work-right .work-btn {
+    display: flex;
+    flex-direction: column;
+    gap: clamp(6px, 1.1vh, 10px);
+}
+
+.work-right .work-btn .apply-btn,
+.work-right .work-btn .store-btn {
+    display: flex;
+    gap: clamp(12px, 2vw, 22px);
+    justify-content: center;
+    align-items: center;
+    width: clamp(80px, 12vw, 148px);
+    height: clamp(22px, 3.5vh, 39px);
+    font-family: 'Arial';
+    font-size: clamp(12px, 1.3vw, 16px);
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.work-right .work-btn .apply-btn i,
+.work-right .work-btn .store-btn i {
+    position: relative;
+    bottom: clamp(0.3px, 0.1vh, 1px);
+}
+
+.work-right .work-btn .apply-btn:hover,
+.work-right .work-btn .store-btn:hover {
+    cursor: pointer;
+}
+
+.work-right .work-btn .apply-btn {
+    border: none;
+    background-color: #FF7800;
+    color: #FFF;
+}
+
+.work-right .work-btn .apply-btn:hover {
+    background-color: #F95B00;
+}
+
+.work-right .work-btn .store-btn {
+    background-color: #fff;
+    color: #686868;
+    border: 1px solid #686868;
+}
+
+.work-right .work-btn .store-btn:hover {
+    border: 1px solid #FF7800;
+    color: #FF7800;
+}
+
+.work-right h1 {
+    font-family: 'Arial';
+    font-size: clamp(12px, 1.5vw, 16px);
+    font-weight: normal;
+    margin: 0;
+    color: #686868;
+}
+
+.main-2 .footer {
+    width: 100%;
+    height: clamp(30px, 5vw, 43px);
+    background-color: #292929;
+    display: flex;
+    align-items: center;
+    margin-top: clamp(30px, 6vw, 55px);
+    padding: 0 clamp(10px, 3vw, 20px);
+}
+
+.main-2 .footer a,
+.main-2 .footer span {
+    text-decoration: none;
+    color: #FFF;
+    font-family: 'Arial';
+    font-size: clamp(12px, 1.5vw, 14px);
+    font-weight: lighter;
+}
+
+.main-2 .footer a:hover {
+    color: #FF7800;
+}
+
+@media (max-width: 768px) {
+    .navbar-top .horizontal-line{
+        display: none;
+    }
+
+    .navbar{
+        height: fit-content !important;
+    }
+
+    .main-1{
+        padding: clamp(40px, 19vw, 85px) 0 clamp(20px, 4vw, 25px) 0;
+    }
+}
