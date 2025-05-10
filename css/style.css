@@ -2730,7 +2730,7 @@
     align-items: center;
     justify-content: center;
     position: fixed;
-    top: 53px;
+    top: 7.7%;
     left: -100%;
     background-color: white;
     padding: clamp(10px, 1.8vh, 20px);
@@ -2805,7 +2805,7 @@
   .navbar-center-hr {
     display: block;
     position: fixed;
-    top: 52px;
+    top: 7.7%;
     left: 0;
     width: 100%;
     height: 1px;
