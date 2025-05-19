@@ -230,7 +230,7 @@
 }
 
 .app-dropdown .list-content-img img {
-  width: clamp(40px, 7vw, 92px); 
+  width: clamp(40px, 7vw, 92px);
   height: 100%;
   object-fit: contain;
 }
@@ -846,7 +846,7 @@
   color: #ff7800;
 }
 
-.name-list-container .list-right{
+.name-list-container .list-right {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -3493,7 +3493,7 @@
   }
 }
 
-@media (max-width: 425px){
+@media (max-width: 425px) {
 
   .company-wrapper,
   .message-wrapper,
@@ -3501,19 +3501,27 @@
     width: 80%;
   }
 
-  .compass-pic{
+  .compass-pic {
     display: none;
   }
 
-  .compass-button-big span{
+  .compass-button-big span {
     position: relative;
     right: 0;
   }
 }
 
-@media (max-width: 413px){
+@media (max-width: 413px) {
+
   .main-company .main-jump,
-  .main-skill .main-jump{
+  .main-skill .main-jump {
     top: -20px;
+  }
+
+  .region-btn,
+  .form-btn,
+  .vacancy-btn,
+  .salary-btn {
+    color: #000 !important;
   }
 }
