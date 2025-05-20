@@ -2734,7 +2734,7 @@
     left: -100%;
     background-color: white;
     padding: clamp(10px, 1.8vh, 20px);
-    z-index: 999;
+    z-index: 1000;
     box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 0 5px 5px 0;
     transition: left 0.3s ease;
