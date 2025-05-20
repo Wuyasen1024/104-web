@@ -2817,7 +2817,7 @@
   height: 1px;
   background-color: #dddddd;
   border: none;
-  z-index: 9999;
+  z-index: 999;
 }
 
 .horizontal-line {
