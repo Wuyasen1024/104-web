@@ -2798,7 +2798,7 @@
     height: clamp(50px, 8vh, 80px);
     text-align: center;
     background-color: #fff;
-    overflow-x: hidden;
+    overflow: hidden;
     z-index: 999;
   }
 
