@@ -211,6 +211,7 @@
 
     .navbar {
         height: fit-content !important;
+        z-index: 1000;
     }
 
     .navbar-center-hr {
