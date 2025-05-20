@@ -213,6 +213,10 @@
         height: fit-content !important;
     }
 
+    .navbar-center-hr {
+        display: block;
+    }
+
     .main-1{
         padding: clamp(40px, 19vw, 85px) 0 clamp(20px, 4vw, 25px) 0;
     }
