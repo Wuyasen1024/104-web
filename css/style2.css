@@ -211,7 +211,7 @@
 
     .navbar {
         height: fit-content !important;
-        z-index: 1000;
+        z-index: 17;
     }
 
     .navbar-center-hr {
@@ -223,7 +223,7 @@
         height: 1px;
         background-color: #dddddd;
         border: none;
-        z-index: 999;
+        z-index: 16;
     }
 
     .main-1 {
