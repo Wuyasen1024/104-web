@@ -43,7 +43,7 @@
     font-family: 'Arial';
     font-size: clamp(12px, 1.8vw, 16px);
     text-decoration: none;
-    color: black;
+    color: #000000;
 }
 
 .guide a:hover,
@@ -58,7 +58,7 @@
 
 /* 為搜尋職缺鏈接添加特殊樣式 */
 .guide a[href=""] {
-    color: black;
+    color: #000000;
     pointer-events: none;
 }
 
