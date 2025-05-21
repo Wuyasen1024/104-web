@@ -20,7 +20,7 @@
     font-family: 'Arial';
     font-size: clamp(12px, 1.8vw, 16px);
     text-decoration: none;
-    color: black;
+    color: #000000;
 }
 
 .main-wrapper .guide a{
@@ -28,7 +28,7 @@
 }
 
 .main-wrapper .guide a[href=""] {
-    color: black;
+    color: #000000;
     pointer-events: none;
 }
 
