@@ -37,7 +37,7 @@
   font-family: "Arial";
   width: 100%;
   height: clamp(60px, 9.5vh, 84px);
-  z-index: 99;
+  z-index: 15;
   background-color: #FFF;
 }
 
@@ -88,7 +88,7 @@
   background-color: #ffffff;
   box-shadow: clamp(1px, 0.1vw, 2px) 3px clamp(10px, 1.5vw, 20px) 0 #e7e7e7;
   border-radius: 5px;
-  z-index: 110;
+  z-index: 16;
 }
 
 .tool-dropdown-scroll {
@@ -183,7 +183,7 @@
   background-color: #ffffff;
   box-shadow: clamp(1px, 0.1vw, 2px) 3px clamp(10px, 1.5vw, 20px) 0 #e7e7e7;
   border-radius: 5px;
-  z-index: 11;
+  z-index: 16;
   display: none;
 }
 
@@ -276,7 +276,7 @@
   height: clamp(60px, 9.5vh, 84px);
   padding: 0 30px;
   background-color: #fff;
-  z-index: 99;
+  z-index: 15;
 }
 
 .navbar-left,
@@ -314,7 +314,7 @@
   height: clamp(40px, 8vh, 80px);
   padding: clamp(5px, 1vw, 15px);
   background-color: #fff;
-  z-index: 100;
+  z-index: 16;
   cursor: pointer;
 }
 
@@ -387,7 +387,7 @@
   background-color: #ffffff;
   box-shadow: clamp(1px, 0.1vw, 2px) 3px clamp(10px, 1.5vw, 20px) 0 #e7e7e7;
   border-radius: 5px;
-  z-index: 11;
+  z-index: 16;
   overflow: hidden;
   display: none;
 }
@@ -532,7 +532,7 @@
   background-color: #ffffff;
   box-shadow: clamp(1px, 0.1vw, 2px) 3px clamp(10px, 1.5vw, 20px) 0 #e7e7e7;
   border-radius: 5px;
-  z-index: 11;
+  z-index: 16;
   overflow: hidden;
   display: none;
 }
@@ -633,7 +633,7 @@
   background-color: #ffffff;
   box-shadow: clamp(1px, 0.1vw, 2px) 3px clamp(10px, 1.5vw, 20px) 0 #e7e7e7;
   border-radius: 5px;
-  z-index: 11;
+  z-index: 16;
   overflow: hidden;
   display: none;
 }
@@ -706,7 +706,7 @@
   background-color: #ffffff;
   box-shadow: clamp(1px, 0.1vw, 2px) 3px clamp(10px, 1.5vw, 20px) 0 #e7e7e7;
   border-radius: 5px;
-  z-index: 11;
+  z-index: 16;
   display: none;
 }
 
@@ -982,7 +982,7 @@
 .salary-dropdown {
   display: none;
   position: absolute;
-  z-index: 9999;
+  z-index: 16;
   left: 0;
   top: clamp(45px, 6vw, 65px);
 }
@@ -1646,7 +1646,7 @@
 .active-btn-3 {
   color: #ff7800;
   box-shadow: 1px 1px 7.6px 0 #f1c499;
-  background-color: white;
+  background-color: #FFFFFF;
 }
 
 .inactive-btn-1,
@@ -1654,7 +1654,7 @@
 .inactive-btn-3 {
   color: #686868 !important;
   box-shadow: 1px 1px 7.6px 0 #c4c4c4;
-  background-color: white;
+  background-color: #FFFFFF;
 }
 
 .inactive-btn-1:hover,
@@ -1700,7 +1700,7 @@
 }
 
 .main-card-1 {
-  background-color: rgb(255, 255, 255);
+  background-color: #FFFFFF;
   border-radius: 5px;
   box-shadow: 1px 1px 7.6px #f1c499;
   padding: clamp(12px, 1.7vw, 26px) clamp(10px, 2vw, 18px);
@@ -2673,7 +2673,7 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    z-index: 1000;
+    z-index: 18;
   }
 
   .dropdown-close i {
@@ -2691,7 +2691,7 @@
     display: block;
     position: absolute;
     cursor: pointer;
-    z-index: 999999;
+    z-index: 16;
     width: 15px;
     height: 15px;
     display: flex;
@@ -2733,9 +2733,9 @@
     position: fixed;
     top: 7.7%;
     left: -100%;
-    background-color: white;
+    background-color: #FFFFFF;
     padding: clamp(10px, 1.8vh, 20px);
-    z-index: 1000;
+    z-index: 17;
     box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 0 5px 5px 0;
     transition: left 0.3s ease;
@@ -2797,9 +2797,9 @@
     width: 100%;
     height: clamp(50px, 8vh, 80px);
     text-align: center;
-    background-color: #fff;
+    background-color: #FFFFFF;
     overflow: hidden;
-    z-index: 999;
+    z-index: 16;
   }
 
   .navbar-center img {
@@ -2818,7 +2818,7 @@
     height: 1px;
     background-color: #dddddd;
     border: none;
-    z-index: 99;
+    z-index: 16;
   }
 
   .horizontal-line {
@@ -2858,14 +2858,14 @@
   .tool-dropdown {
     all: unset;
     position: fixed;
-    background-color: white;
+    background-color: #FFFFFF;
     padding: 35px 56px;
     top: 0;
     left: 0;
     height: 100%;
     box-shadow: none;
     border-radius: 0;
-    z-index: 999999;
+    z-index: 17;
     display: none;
     justify-content: center;
     align-items: center;
@@ -2935,14 +2935,14 @@
   .app-dropdown {
     all: unset;
     position: fixed;
-    background-color: white;
+    background-color: #FFFFFF;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
     box-shadow: none;
     border-radius: 0;
-    z-index: 10005;
+    z-index: 17;
     display: none;
     justify-content: center;
     align-items: center;
@@ -2991,14 +2991,14 @@
   .bag-dropdown {
     all: unset;
     position: fixed;
-    background-color: white;
+    background-color: #FFFFFF;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
     box-shadow: none;
     border-radius: 0;
-    z-index: 10005;
+    z-index: 17;
     display: none;
     flex-direction: column;
     align-items: center;
@@ -3066,15 +3066,13 @@
     all: unset;
     width: 100vw;
     height: 100vh;
-    /* display: flex; */
     display: none;
     flex-direction: column;
     position: fixed;
     top: 0;
     left: 0;
     background-color: #ffffff;
-    z-index: 10005;
-    /* padding: 39px 56px; */
+    z-index: 17;
   }
 
   .name-header {
